@@ -31,6 +31,7 @@ const Footer = () => {
           <PoweredBy />
           <CopyRightDate />
         </div>
+          
 
         <div id='footer-bottom-right'>
           {siteConfig('BEI_AN') && (
@@ -38,6 +39,8 @@ const Footer = () => {
               <i className='fas fa-shield-alt' />{' '}
               <a href='https://beian.miit.gov.cn/' className='mr-2'>
                 {siteConfig('BEI_AN')}
+              </a>
+              <a href="https://beian.mps.gov.cn/#/query/webSearch?code=51012402001382" rel="noreferrer" target="_blank">川公网安备51012402001382
               </a>
             </>
           )}
