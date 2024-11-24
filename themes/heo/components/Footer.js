@@ -43,6 +43,11 @@ const Footer = () => {
           )}
           <BeiAnGongAn />
 
+          <img src='/police-logo.png' alt='公安标志' className='mr-1 w-4 h-4 inline-block' />{' '}
+          <a href="https://beian.mps.gov.cn/#/query/webSearch?code=51012402001382" rel="noreferrer" target="_blank" className='ml-2'>
+            川公网安备51012402001382
+          </a>
+
           <span className='hidden busuanzi_container_site_pv'>
             <i className='fas fa-eye' />
             <span className='px-1 busuanzi_value_site_pv'> </span>{' '}
@@ -52,11 +57,7 @@ const Footer = () => {
             <span className='px-1 busuanzi_value_site_uv'> </span>{' '}
           </span>
           
-          {/* 添加公安备案链接 */}
-          <img src='/police-logo.png' alt='公安标志' className='mr-1 w-4 h-4 inline-block' />{' '}
-          <a href="https://beian.mps.gov.cn/#/query/webSearch?code=51012402001382" rel="noreferrer" target="_blank" className='ml-2'>
-            川公网安备51012402001382
-          </a>
+
 
           {/* <h1 className='text-xs pt-4 text-light-400 dark:text-gray-400'>{title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}</h1> */}
         </div>
