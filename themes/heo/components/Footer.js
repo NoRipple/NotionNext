@@ -53,6 +53,7 @@ const Footer = () => {
           </span>
           
           {/* 添加公安备案链接 */}
+          <i className='fas fa-shield-alt mr-1' />{' '}
           <a href="https://beian.mps.gov.cn/#/query/webSearch?code=51012402001382" rel="noreferrer" target="_blank" className='ml-2'>
             川公网安备51012402001382
           </a>
