@@ -43,6 +43,7 @@ const Footer = () => {
           )}
           <BeiAnGongAn />
 
+          <div class="inline-block w-16px flex-shrink-0 mr-1" data-v-72957a96=""><img src="/public/police-logo.png" class="w-full" style="width: 16px;"></div>
           <a href="https://beian.mps.gov.cn/#/query/webSearch?code=51012402001382" rel="noreferrer" target="_blank" className='ml-2'>
             川公网安备51012402001382
           </a>
