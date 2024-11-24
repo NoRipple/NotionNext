@@ -43,8 +43,6 @@ const Footer = () => {
           )}
           <BeiAnGongAn />
 
-
-          <img src={`${process.env.PUBLIC_URL}/备案图标.png`} alt='公安标志' />
           <a href="https://beian.mps.gov.cn/#/query/webSearch?code=51012402001382" rel="noreferrer" target="_blank" className='ml-2'>
             川公网安备51012402001382
           </a>
