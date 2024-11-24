@@ -39,9 +39,6 @@ const Footer = () => {
               <i className='fas fa-shield-alt' />{' '}
               <a href='https://beian.miit.gov.cn/' className='mr-2'>
                 {siteConfig('BEI_AN')}
-              </a>
-              <a href="https://beian.mps.gov.cn/#/query/webSearch?code=51012402001382" rel="noreferrer" target="_blank">川公网安备51012402001382
-              </a>
             </>
           )}
           <BeiAnGongAn />
@@ -54,6 +51,11 @@ const Footer = () => {
             <i className='fas fa-users' />{' '}
             <span className='px-1 busuanzi_value_site_uv'> </span>{' '}
           </span>
+          
+          {/* 添加公安备案链接 */}
+          <a href="https://beian.mps.gov.cn/#/query/webSearch?code=51012402001382" rel="noreferrer" target="_blank" className='ml-2'>
+            川公网安备51012402001382
+          </a>
 
           {/* <h1 className='text-xs pt-4 text-light-400 dark:text-gray-400'>{title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}</h1> */}
         </div>
