@@ -43,7 +43,8 @@ const Footer = () => {
           )}
           <BeiAnGongAn />
 
-          <img src='/police-logo.png' alt='公安标志' className='mr-1 w-4 h-4 inline-block' />{' '}
+
+          <img src={`${process.env.PUBLIC_URL}/police-logo.png`} alt='公安标志' />
           <a href="https://beian.mps.gov.cn/#/query/webSearch?code=51012402001382" rel="noreferrer" target="_blank" className='ml-2'>
             川公网安备51012402001382
           </a>
